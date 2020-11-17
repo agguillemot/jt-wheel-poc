@@ -1,0 +1,120 @@
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+button {
+  background: #428BCA;
+  color: #fff;
+  font-size: 20px;
+  height: 60px;
+  width: 150px;
+  line-height: 60px;
+  margin: 25px 25px;
+  text-align: center;
+  outline: none;
+}
+
+input { 
+  border: 1px solid #666; 
+  background: #333; 
+  color: #fff !important; 
+  height: 30px;
+  width: 200px;
+  outline: none !important; 
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+h1 { 
+  margin: 0;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.5em #fff;
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.quarter-progress-bar-wrapper {
+  position: relative;
+}
+
+.quarter-progress-bar {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress-change { transform: rotate(0deg); }
+.progress-self-affirmation { transform: rotate(90deg); }
+.progress-continuity { transform: rotate(180deg); }
+.progress-over-achievement { transform: rotate(270deg); }
+
+.inputs-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs-wrapper label {
+  display: flex;
+}
+
+.inputs-wrapper label span {
+  width: 200px;
+  text-align: right;
+}
+
+.conic-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.conic-0 { transform: rotate(0deg); }
+.conic-1 { transform: rotate(36deg); }
+.conic-2 { transform: rotate(72deg); }
+.conic-3 { transform: rotate(108deg); }
+.conic-4 { transform: rotate(144deg); }
+.conic-5 { transform: rotate(180deg); }
+.conic-6 { transform: rotate(216deg); }
+.conic-7 { transform: rotate(252deg); }
+.conic-8 { transform: rotate(288deg); }
+.conic-9 { transform: rotate(324deg); color: light }
+
+.figure-wrapper {
+  position: relative;
+  height: 550px;
+  width: 550px;
+}
+
+.conic-progress-wrapper,
+.quarter-progress-bar-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
